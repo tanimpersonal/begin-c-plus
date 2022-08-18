@@ -1,5 +1,6 @@
 /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/begin_c_plus.dir
 /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/trapezoid.dir
 /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/consonant.dir
+/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/binary-add-sub.dir
 /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

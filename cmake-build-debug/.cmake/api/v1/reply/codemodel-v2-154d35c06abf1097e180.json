@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -45,6 +47,13 @@
 					"id" : "begin_c_plus::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-begin_c_plus-Debug-24080ca4be0c7686c915.json",
 					"name" : "begin_c_plus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "binary-add-sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-binary-add-sub-Debug-06b9737b3a713d836e7b.json",
+					"name" : "binary-add-sub",
 					"projectIndex" : 0
 				},
 				{

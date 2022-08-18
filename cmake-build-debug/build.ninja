@@ -136,6 +136,38 @@ build consonant: CXX_EXECUTABLE_LINKER__consonant_Debug CMakeFiles/consonant.dir
   TARGET_FILE = consonant
   TARGET_PDB = consonant.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target binary-add-sub
+
+
+#############################################
+# Order-only phony target for binary-add-sub
+
+build cmake_object_order_depends_target_binary-add-sub: phony || CMakeFiles/binary-add-sub.dir
+
+build CMakeFiles/binary-add-sub.dir/binary-add-sub.cpp.o: CXX_COMPILER__binary-add-sub_Debug /mnt/01D5CA200052FAA0/CSE$ Funda/C++/begin-c-plus/binary-add-sub.cpp || cmake_object_order_depends_target_binary-add-sub
+  DEP_FILE = CMakeFiles/binary-add-sub.dir/binary-add-sub.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/."
+  OBJECT_DIR = CMakeFiles/binary-add-sub.dir
+  OBJECT_FILE_DIR = CMakeFiles/binary-add-sub.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary-add-sub
+
+
+#############################################
+# Link the executable binary-add-sub
+
+build binary-add-sub: CXX_EXECUTABLE_LINKER__binary-add-sub_Debug CMakeFiles/binary-add-sub.dir/binary-add-sub.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/binary-add-sub.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = binary-add-sub
+  TARGET_PDB = binary-add-sub.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,7 +203,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug
 
-build all: phony begin_c_plus trapezoid consonant
+build all: phony begin_c_plus trapezoid consonant binary-add-sub
 
 # =============================================================================
 # Built-in targets
