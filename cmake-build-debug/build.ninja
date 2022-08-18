@@ -168,6 +168,38 @@ build binary-add-sub: CXX_EXECUTABLE_LINKER__binary-add-sub_Debug CMakeFiles/bin
   TARGET_FILE = binary-add-sub
   TARGET_PDB = binary-add-sub.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target candies
+
+
+#############################################
+# Order-only phony target for candies
+
+build cmake_object_order_depends_target_candies: phony || CMakeFiles/candies.dir
+
+build CMakeFiles/candies.dir/candies.cpp.o: CXX_COMPILER__candies_Debug /mnt/01D5CA200052FAA0/CSE$ Funda/C++/begin-c-plus/candies.cpp || cmake_object_order_depends_target_candies
+  DEP_FILE = CMakeFiles/candies.dir/candies.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/."
+  OBJECT_DIR = CMakeFiles/candies.dir
+  OBJECT_FILE_DIR = CMakeFiles/candies.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target candies
+
+
+#############################################
+# Link the executable candies
+
+build candies: CXX_EXECUTABLE_LINKER__candies_Debug CMakeFiles/candies.dir/candies.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/candies.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = candies
+  TARGET_PDB = candies.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -203,7 +235,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug
 
-build all: phony begin_c_plus trapezoid consonant binary-add-sub
+build all: phony begin_c_plus trapezoid consonant binary-add-sub candies
 
 # =============================================================================
 # Built-in targets

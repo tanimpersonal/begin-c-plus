@@ -11,3 +11,4 @@ add_executable(begin_c_plus
 add_executable(trapezoid trapezoid.c++)
 add_executable(consonant consonant.cpp)
 add_executable(binary-add-sub binary-add-sub.cpp)
+add_executable(candies candies.cpp)
