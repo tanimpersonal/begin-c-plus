@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.23)
+project(begin_c_plus)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+
+add_executable(begin_c_plus
+        trapezoid.c++)
+
+add_executable(trapezoid trapezoid.c++)

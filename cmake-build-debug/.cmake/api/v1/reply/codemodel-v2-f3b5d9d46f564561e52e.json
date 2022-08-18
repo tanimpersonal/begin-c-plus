@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "begin_c_plus",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "begin_c_plus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-begin_c_plus-Debug-24080ca4be0c7686c915.json",
+					"name" : "begin_c_plus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trapezoid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trapezoid-Debug-4ec6f4a2ff5b66d41bbd.json",
+					"name" : "trapezoid",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug",
+		"source" : "/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
