@@ -9,3 +9,4 @@ add_executable(begin_c_plus
         trapezoid.c++)
 
 add_executable(trapezoid trapezoid.c++)
+add_executable(consonant consonant.cpp)

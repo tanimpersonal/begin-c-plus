@@ -104,6 +104,38 @@ build trapezoid: CXX_EXECUTABLE_LINKER__trapezoid_Debug CMakeFiles/trapezoid.dir
   TARGET_FILE = trapezoid
   TARGET_PDB = trapezoid.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target consonant
+
+
+#############################################
+# Order-only phony target for consonant
+
+build cmake_object_order_depends_target_consonant: phony || CMakeFiles/consonant.dir
+
+build CMakeFiles/consonant.dir/consonant.cpp.o: CXX_COMPILER__consonant_Debug /mnt/01D5CA200052FAA0/CSE$ Funda/C++/begin-c-plus/consonant.cpp || cmake_object_order_depends_target_consonant
+  DEP_FILE = CMakeFiles/consonant.dir/consonant.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/."
+  OBJECT_DIR = CMakeFiles/consonant.dir
+  OBJECT_FILE_DIR = CMakeFiles/consonant.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target consonant
+
+
+#############################################
+# Link the executable consonant
+
+build consonant: CXX_EXECUTABLE_LINKER__consonant_Debug CMakeFiles/consonant.dir/consonant.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/consonant.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = consonant
+  TARGET_PDB = consonant.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -139,7 +171,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug
 
-build all: phony begin_c_plus trapezoid
+build all: phony begin_c_plus trapezoid consonant
 
 # =============================================================================
 # Built-in targets
