@@ -3,5 +3,6 @@
 /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/consonant.dir
 /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/binary-add-sub.dir
 /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/candies.dir
+/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/hotel-fee.dir
 /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

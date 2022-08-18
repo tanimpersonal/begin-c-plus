@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -70,6 +72,13 @@
 					"id" : "consonant::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-consonant-Debug-9361e90f9e0095de4ca8.json",
 					"name" : "consonant",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hotel-fee::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hotel-fee-Debug-20e05f169d918372f28c.json",
+					"name" : "hotel-fee",
 					"projectIndex" : 0
 				},
 				{

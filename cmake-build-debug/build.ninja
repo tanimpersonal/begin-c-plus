@@ -200,6 +200,38 @@ build candies: CXX_EXECUTABLE_LINKER__candies_Debug CMakeFiles/candies.dir/candi
   TARGET_FILE = candies
   TARGET_PDB = candies.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hotel-fee
+
+
+#############################################
+# Order-only phony target for hotel-fee
+
+build cmake_object_order_depends_target_hotel-fee: phony || CMakeFiles/hotel-fee.dir
+
+build CMakeFiles/hotel-fee.dir/hotel-fee.cpp.o: CXX_COMPILER__hotel-fee_Debug /mnt/01D5CA200052FAA0/CSE$ Funda/C++/begin-c-plus/hotel-fee.cpp || cmake_object_order_depends_target_hotel-fee
+  DEP_FILE = CMakeFiles/hotel-fee.dir/hotel-fee.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/."
+  OBJECT_DIR = CMakeFiles/hotel-fee.dir
+  OBJECT_FILE_DIR = CMakeFiles/hotel-fee.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hotel-fee
+
+
+#############################################
+# Link the executable hotel-fee
+
+build hotel-fee: CXX_EXECUTABLE_LINKER__hotel-fee_Debug CMakeFiles/hotel-fee.dir/hotel-fee.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/hotel-fee.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hotel-fee
+  TARGET_PDB = hotel-fee.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -235,7 +267,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug
 
-build all: phony begin_c_plus trapezoid consonant binary-add-sub candies
+build all: phony begin_c_plus trapezoid consonant binary-add-sub candies hotel-fee
 
 # =============================================================================
 # Built-in targets
