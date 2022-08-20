@@ -23,7 +23,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -46,7 +47,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -92,6 +94,13 @@
 					"id" : "hotel-fee::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-hotel-fee-Debug-ecc5a931e9b18a94f9b6.json",
 					"name" : "hotel-fee",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pole::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pole-Debug-8f20c7bfb4192fac83b2.json",
+					"name" : "pole",
 					"projectIndex" : 0
 				},
 				{

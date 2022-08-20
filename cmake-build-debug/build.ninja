@@ -346,6 +346,40 @@ build restaurent-yen.exe: CXX_EXECUTABLE_LINKER__restaurent-yen_Debug CMakeFiles
   TARGET_IMPLIB = librestaurent-yen.dll.a
   TARGET_PDB = restaurent-yen.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target pole
+
+
+#############################################
+# Order-only phony target for pole
+
+build cmake_object_order_depends_target_pole: phony || CMakeFiles/pole.dir
+
+build CMakeFiles/pole.dir/pole.cpp.obj: CXX_COMPILER__pole_Debug G$:/CSE$ Funda/C++/begin-c-plus/pole.cpp || cmake_object_order_depends_target_pole
+  DEP_FILE = CMakeFiles\pole.dir\pole.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"G:/CSE Funda/C++/begin-c-plus/."
+  OBJECT_DIR = CMakeFiles\pole.dir
+  OBJECT_FILE_DIR = CMakeFiles\pole.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pole
+
+
+#############################################
+# Link the executable pole.exe
+
+build pole.exe: CXX_EXECUTABLE_LINKER__pole_Debug CMakeFiles/pole.dir/pole.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pole.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pole.exe
+  TARGET_IMPLIB = libpole.dll.a
+  TARGET_PDB = pole.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -384,6 +418,8 @@ build consonant: phony consonant.exe
 
 build hotel-fee: phony hotel-fee.exe
 
+build pole: phony pole.exe
+
 build restaurent-yen: phony restaurent-yen.exe
 
 build trapezoid: phony trapezoid.exe
@@ -398,7 +434,7 @@ build two-rectangle: phony two-rectangle.exe
 #############################################
 # Folder: G:/CSE Funda/C++/begin-c-plus/cmake-build-debug
 
-build all: phony begin_c_plus.exe trapezoid.exe consonant.exe binary-add-sub.exe candies.exe hotel-fee.exe two-rectangle.exe candy-fight.exe restaurent-yen.exe
+build all: phony begin_c_plus.exe trapezoid.exe consonant.exe binary-add-sub.exe candies.exe hotel-fee.exe two-rectangle.exe candy-fight.exe restaurent-yen.exe pole.exe
 
 # =============================================================================
 # Built-in targets
