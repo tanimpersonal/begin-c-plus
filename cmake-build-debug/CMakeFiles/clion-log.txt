@@ -1,4 +1,4 @@
-/home/tanim/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.3345.126/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/tanim/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.3345.126/bin/ninja/linux/ninja -G Ninja -S "/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus" -B "/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug"
+"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S "G:\CSE Funda\C++\begin-c-plus" -B "G:\CSE Funda\C++\begin-c-plus\cmake-build-debug"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug
+-- Build files have been written to: G:/CSE Funda/C++/begin-c-plus/cmake-build-debug

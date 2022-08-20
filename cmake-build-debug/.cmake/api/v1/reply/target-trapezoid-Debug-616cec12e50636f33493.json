@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "begin_c_plus"
+			"path" : "trapezoid.exe"
+		},
+		{
+			"path" : "trapezoid.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -25,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
@@ -52,7 +55,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/."
+					"path" : "G:/CSE Funda/C++/begin-c-plus/."
 				}
 			],
 			"language" : "CXX",
@@ -70,7 +73,7 @@
 			]
 		}
 	],
-	"id" : "begin_c_plus::@6890427a1f51a3e7e1df",
+	"id" : "trapezoid::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -82,12 +85,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "begin_c_plus",
-	"nameOnDisk" : "begin_c_plus",
+	"name" : "trapezoid",
+	"nameOnDisk" : "trapezoid.exe",
 	"paths" : 
 	{
 		"build" : ".",

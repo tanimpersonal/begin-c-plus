@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.23"
@@ -20,7 +20,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -40,7 +41,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -49,42 +51,49 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "begin_c_plus::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-begin_c_plus-Debug-24080ca4be0c7686c915.json",
+					"jsonFile" : "target-begin_c_plus-Debug-02c99383d280b2571525.json",
 					"name" : "begin_c_plus",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "binary-add-sub::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-binary-add-sub-Debug-06b9737b3a713d836e7b.json",
+					"jsonFile" : "target-binary-add-sub-Debug-898d7034d94baef3986b.json",
 					"name" : "binary-add-sub",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "candies::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-candies-Debug-017ed1d8b8525a051e90.json",
+					"jsonFile" : "target-candies-Debug-11a7784e2ad719963f55.json",
 					"name" : "candies",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "candy-fight::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-candy-fight-Debug-bb5befed1d927a777ef6.json",
+					"name" : "candy-fight",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "consonant::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-consonant-Debug-9361e90f9e0095de4ca8.json",
+					"jsonFile" : "target-consonant-Debug-a630f05d5d3550c722ff.json",
 					"name" : "consonant",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "hotel-fee::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hotel-fee-Debug-20e05f169d918372f28c.json",
+					"jsonFile" : "target-hotel-fee-Debug-ecc5a931e9b18a94f9b6.json",
 					"name" : "hotel-fee",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "trapezoid::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-trapezoid-Debug-4ec6f4a2ff5b66d41bbd.json",
+					"jsonFile" : "target-trapezoid-Debug-616cec12e50636f33493.json",
 					"name" : "trapezoid",
 					"projectIndex" : 0
 				}
@@ -94,8 +103,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus/cmake-build-debug",
-		"source" : "/mnt/01D5CA200052FAA0/CSE Funda/C++/begin-c-plus"
+		"build" : "G:/CSE Funda/C++/begin-c-plus/cmake-build-debug",
+		"source" : "G:/CSE Funda/C++/begin-c-plus"
 	},
 	"version" : 
 	{
