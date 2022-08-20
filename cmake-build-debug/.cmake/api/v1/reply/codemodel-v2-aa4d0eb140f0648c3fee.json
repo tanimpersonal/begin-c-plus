@@ -21,7 +21,9 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -42,7 +44,9 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -72,7 +76,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "candy-fight::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-candy-fight-Debug-bb5befed1d927a777ef6.json",
+					"jsonFile" : "target-candy-fight-Debug-5d3b251db9130f3c030e.json",
 					"name" : "candy-fight",
 					"projectIndex" : 0
 				},
@@ -92,9 +96,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "restaurent-yen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-restaurent-yen-Debug-63c515e8941efb28c94c.json",
+					"name" : "restaurent-yen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "trapezoid::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-trapezoid-Debug-616cec12e50636f33493.json",
 					"name" : "trapezoid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "two-rectangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-two-rectangle-Debug-37a6368460a6687415aa.json",
+					"name" : "two-rectangle",
 					"projectIndex" : 0
 				}
 			]

@@ -4,6 +4,8 @@ G:/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/consonant.dir
 G:/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/binary-add-sub.dir
 G:/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/candies.dir
 G:/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/hotel-fee.dir
+G:/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/two-rectangle.dir
 G:/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/candy-fight.dir
+G:/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/restaurent-yen.dir
 G:/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/edit_cache.dir
 G:/CSE Funda/C++/begin-c-plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

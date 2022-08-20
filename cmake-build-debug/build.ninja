@@ -245,6 +245,40 @@ build hotel-fee.exe: CXX_EXECUTABLE_LINKER__hotel-fee_Debug CMakeFiles/hotel-fee
   TARGET_PDB = hotel-fee.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target two-rectangle
+
+
+#############################################
+# Order-only phony target for two-rectangle
+
+build cmake_object_order_depends_target_two-rectangle: phony || CMakeFiles/two-rectangle.dir
+
+build CMakeFiles/two-rectangle.dir/two-rectangle.cpp.obj: CXX_COMPILER__two-rectangle_Debug G$:/CSE$ Funda/C++/begin-c-plus/two-rectangle.cpp || cmake_object_order_depends_target_two-rectangle
+  DEP_FILE = CMakeFiles\two-rectangle.dir\two-rectangle.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"G:/CSE Funda/C++/begin-c-plus/."
+  OBJECT_DIR = CMakeFiles\two-rectangle.dir
+  OBJECT_FILE_DIR = CMakeFiles\two-rectangle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target two-rectangle
+
+
+#############################################
+# Link the executable two-rectangle.exe
+
+build two-rectangle.exe: CXX_EXECUTABLE_LINKER__two-rectangle_Debug CMakeFiles/two-rectangle.dir/two-rectangle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\two-rectangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = two-rectangle.exe
+  TARGET_IMPLIB = libtwo-rectangle.dll.a
+  TARGET_PDB = two-rectangle.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target candy-fight
 
 
@@ -253,7 +287,7 @@ build hotel-fee.exe: CXX_EXECUTABLE_LINKER__hotel-fee_Debug CMakeFiles/hotel-fee
 
 build cmake_object_order_depends_target_candy-fight: phony || CMakeFiles/candy-fight.dir
 
-build CMakeFiles/candy-fight.dir/candy-fight.cpp.obj: CXX_COMPILER__candy-fight_Debug G$:/CSE$ Funda/C++/begin-c-plus/cmake-build-debug/candy-fight.cpp || cmake_object_order_depends_target_candy-fight
+build CMakeFiles/candy-fight.dir/candy-fight.cpp.obj: CXX_COMPILER__candy-fight_Debug G$:/CSE$ Funda/C++/begin-c-plus/candy-fight.cpp || cmake_object_order_depends_target_candy-fight
   DEP_FILE = CMakeFiles\candy-fight.dir\candy-fight.cpp.obj.d
   FLAGS = -g -std=gnu++14
   INCLUDES = -I"G:/CSE Funda/C++/begin-c-plus/."
@@ -277,6 +311,40 @@ build candy-fight.exe: CXX_EXECUTABLE_LINKER__candy-fight_Debug CMakeFiles/candy
   TARGET_FILE = candy-fight.exe
   TARGET_IMPLIB = libcandy-fight.dll.a
   TARGET_PDB = candy-fight.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target restaurent-yen
+
+
+#############################################
+# Order-only phony target for restaurent-yen
+
+build cmake_object_order_depends_target_restaurent-yen: phony || CMakeFiles/restaurent-yen.dir
+
+build CMakeFiles/restaurent-yen.dir/restaurent-yen.cpp.obj: CXX_COMPILER__restaurent-yen_Debug G$:/CSE$ Funda/C++/begin-c-plus/restaurent-yen.cpp || cmake_object_order_depends_target_restaurent-yen
+  DEP_FILE = CMakeFiles\restaurent-yen.dir\restaurent-yen.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"G:/CSE Funda/C++/begin-c-plus/."
+  OBJECT_DIR = CMakeFiles\restaurent-yen.dir
+  OBJECT_FILE_DIR = CMakeFiles\restaurent-yen.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target restaurent-yen
+
+
+#############################################
+# Link the executable restaurent-yen.exe
+
+build restaurent-yen.exe: CXX_EXECUTABLE_LINKER__restaurent-yen_Debug CMakeFiles/restaurent-yen.dir/restaurent-yen.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\restaurent-yen.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = restaurent-yen.exe
+  TARGET_IMPLIB = librestaurent-yen.dll.a
+  TARGET_PDB = restaurent-yen.exe.dbg
 
 
 #############################################
@@ -316,7 +384,11 @@ build consonant: phony consonant.exe
 
 build hotel-fee: phony hotel-fee.exe
 
+build restaurent-yen: phony restaurent-yen.exe
+
 build trapezoid: phony trapezoid.exe
+
+build two-rectangle: phony two-rectangle.exe
 
 # =============================================================================
 # Folder targets.
@@ -326,7 +398,7 @@ build trapezoid: phony trapezoid.exe
 #############################################
 # Folder: G:/CSE Funda/C++/begin-c-plus/cmake-build-debug
 
-build all: phony begin_c_plus.exe trapezoid.exe consonant.exe binary-add-sub.exe candies.exe hotel-fee.exe candy-fight.exe
+build all: phony begin_c_plus.exe trapezoid.exe consonant.exe binary-add-sub.exe candies.exe hotel-fee.exe two-rectangle.exe candy-fight.exe restaurent-yen.exe
 
 # =============================================================================
 # Built-in targets
